@@ -1,0 +1,40 @@
+/* এখানে এক্সটারনাল সিএসএস ব্যুবহার করা হয়েছে  */
+p{
+    font-size: large;
+    color: rgb(73, 23, 119);
+    text-align: justify;
+    font-style: oblique;
+    
+    
+}
+h2{
+    text-align: center;
+    background-color: rgba(151, 16, 181, 0.574);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px blue;
+    border: 70px;
+    text-decoration:overline;
+}
+div{
+    background-color: rgba(231, 220, 245, 0.669);
+    margin: 10%;
+    border: 90px;
+    border-radius: 0px 10px 15px 20px;
+    padding: 20px;
+    box-shadow:10px 10px 20px blue;
+    background-image: url(Panda.jpg);
+    background-repeat:no-repeat;
+    background-size: 40px;
+    
+}
+.picture{
+    background-image: url(Panda.jpg);
+    border: 30px;
+    padding: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hii{
+    color: rgba(71, 20, 119, 0.88);
+    
+}

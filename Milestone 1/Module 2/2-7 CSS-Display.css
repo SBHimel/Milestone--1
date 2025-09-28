@@ -1,0 +1,21 @@
+h3{
+    font-size: 30px;
+    color: blue;
+    text-decoration: overline;
+    text-align: center;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 20px;
+    border: 10px solid tomato;
+    box-shadow:15px 20px 20px blueviolet ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.incident{
+    border:8px solid rgb(46, 132, 158) ;
+    display: block;
+    padding: 20px;
+}
