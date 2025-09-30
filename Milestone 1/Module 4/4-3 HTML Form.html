@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit debitis harum nesciunt exercitationem excepturi enim at impedit, cupiditate ipsum, adipisci ut cumque nisi quisquam molestiae nulla sequi necessitatibus eum ipsam!</p>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Enter name ">
+                </label>
+                <label for="email"> Your email:
+                    <input type="email" name="" id="Enter" placeholder="Enter email">
+                </label>
+                <label for="phone"> Your phone:
+                    <input type="text" id="phone" placeholder="Your phone ">
+                </label>
+            </form>
+            
+            <form>
+                <fieldset>
+                    <legend>Pick One Pitha </legend>
+                    <!-- name="" এইখানে যদি একই নাম দেই তাহলে আউটপুট এ সিলেক্ট করার সময় যেকোনো একটা সিলেক্ট হবে আর যদি আলাদা করে ২টা দেয় আর বাকি ১টা আলাদা দেয় তাহলে ৩ টার মধ্য থেকে  যেকোনো ২টা সিলেক্ট হবে । আর যদি ৩টা দেয় তাহলে ৩টায় সিলেক্ট হবে -->
+                    <label for="Chitol ">
+                        <input type="radio"
+                        name="pitha " id="chitol">Chitol
+                    </label>
+
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha"
+                        id="puri">Puri
+                    </label>
+                </fieldset>
+            </form>
+            <fieldset>
+                <legend>Pick one or more vorta </legend>
+                <label for="sorisa">
+                    <input type="checkbox"
+                    name="vorta" id="sorisa">
+                    Sorisa
+                </label>
+                <label for="sutki">
+                    <input type="checkbox"
+                    name="vorta" id="sutki">
+                    Sutki
+                </label>
+                <label for="Alu">
+                    <input type="checkbox"
+                    name="vorta" id="Alu">
+                    Alu
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Comment</legend>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+
+            <input type="reset">
+            <input type="submit">
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
