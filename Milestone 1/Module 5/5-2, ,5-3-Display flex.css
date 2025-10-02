@@ -1,0 +1,20 @@
+.parant{
+    padding: 25px;
+    background-color:rgba(165, 42, 42, 0.781);
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    height:350px;
+    align-items:center;
+    flex-direction:column;
+    /* flex-wrap: wrap এর মানে হচ্ছে আমরা গিফট দিলে যেইভাবে wraping করি এটা এমনি যেইভাবেই ছোট করি কিনবা বড় করি automatic হয়ে যাই */
+    flex-wrap: wrap;
+}
+.child{
+    border: 6px solid black;
+    background: rgb(250, 250, 250);
+    padding: 20px;
+    font-size: 22px;
+    margin: 10px 0;
+    box-shadow: 10px 10px 20px blueviolet;
+}
