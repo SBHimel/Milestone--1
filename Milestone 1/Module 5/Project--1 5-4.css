@@ -76,6 +76,8 @@
   border-radius: 8px;
   background: rgba(82, 195, 3, 1);
   box-shadow: 0px 10px 20px burlywood;
+  cursor: pointer;
+
 }
 
 .btn-container {
@@ -102,20 +104,25 @@
 
 #card-box .subtitle {
   color: rgba(16, 16, 16, 1);
+
   font-family: Work Sans;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0%;
   text-align: center;
-
   opacity: 0.6;
+
 }
 
 #card-box .info {}
 
-#card-box .card-container {
+.card-container {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Work Sans;
 
 }
 
@@ -125,27 +132,30 @@
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  align-items: 27%;
-  margin-left: ;
+  align-items: center;
 }
 
 .card .image-box {
+  width: 250px;
+}
+
+.card .image-box img {
   width: 100%;
 }
 
 .card .shop {
-
-  /* Frame 9 */
-  width: 145px;
-  height: 10px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10;
-  padding: 14px 32px 14px 32px;
-
+  padding: 10px 18px 10px 18px;
   border-radius: 8px;
   background: rgba(82, 195, 3, 0.15);
+}
+
+.card .paragraph {
+  margin-left: 19px;
+}
+
+footer .btn {
+  display: flex;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-left: 43%;
 }
