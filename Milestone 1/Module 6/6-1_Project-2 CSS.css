@@ -262,6 +262,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 footer textarea{
     height: 94px;
 }
+
 textarea::placeholder {
     font-size: 20px;
     padding: 35px 0px;
