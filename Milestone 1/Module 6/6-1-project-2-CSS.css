@@ -221,6 +221,7 @@ main section {
     color: rgba(71, 71, 71, 1); 
     font-size: 30px;
     text-decoration: underline;
+    text-decoration-style:wavy;
     text-decoration-color: #0000009a;
     text-decoration-thickness: 2px;
     /* আন্ডারলাইনের পুরুত্ব */

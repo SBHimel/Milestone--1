@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Merriweather", serif; */
+
+
+/* 2nd design er jonno ei font  */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Share style  */
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 8px;
+    text-decoration-style: dotted;
+    /* আন্ডারলাইনের পুরুত্ব */
+    text-underline-offset: 12px;
+    /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
+}
+
+.emni{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+    text-decoration-thickness: 8px;
+    text-decoration-style:wavy;
+    /* আন্ডারলাইনের পুরুত্ব */
+    text-underline-offset: 12px;
+    /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, red, yellow, green);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backround-image {
+    background-image: linear-gradient(180.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1), rgba(16, 16, 16, 0) 100%), url(new-year-offer-resources/images/Banner\ Image.png);
+    height: 900px;
+    width: 1120;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container {
+    color: rgba(255, 255, 255, 1);
+    padding: 177px 344px;
+    line-height: 95px;
+    font-family: "Merriweather", serif;
+
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+
+.sub-title {
+    font-size: 82px;
+    width: 632px;
+}
+
+
+
+/* এখান থেকে ২য় বক্স এর ডিজাইন করা হয়েছে */
+
+.mini-box{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.title-2 {
+    margin-top: 120px;
+    color: rgba(255, 0, 0, 1);
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+.item-2{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+
+}
+.item-3{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    
+}
+
+
