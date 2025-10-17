@@ -9,7 +9,7 @@
 
 .underline {
     text-decoration: underline;
-    text-decoration-color: brown;
+    text-decoration-color: rgb(231, 0, 0);
     text-decoration-thickness: 8px;
     text-decoration-style: dotted;
     /* আন্ডারলাইনের পুরুত্ব */
@@ -17,11 +17,11 @@
     /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
 }
 
-.emni{
+.emni {
     text-decoration: underline;
     text-decoration-color: rgb(255, 0, 0);
     text-decoration-thickness: 8px;
-    text-decoration-style:wavy;
+    text-decoration-style: wavy;
     /* আন্ডারলাইনের পুরুত্ব */
     text-underline-offset: 12px;
     /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
@@ -39,12 +39,14 @@ hr {
     padding: 0;
 }
 
+/* এখানে বক্স -১ এর কাজ করা হয়েছে */
 .backround-image {
     background-image: linear-gradient(180.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1), rgba(16, 16, 16, 0) 100%), url(new-year-offer-resources/images/Banner\ Image.png);
     height: 900px;
     width: 1120;
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin: 50px 140px 120px; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -74,7 +76,7 @@ hr {
 
 /* এখান থেকে ২য় বক্স এর ডিজাইন করা হয়েছে */
 
-.mini-box{
+.mini-box {
     font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: column;
@@ -88,15 +90,86 @@ hr {
     font-size: 88px;
     margin-bottom: 48px;
 }
-.item-2{
+
+.item-2 {
     color: rgba(255, 0, 0, 1);
     font-size: 24px;
 
 }
-.item-3{
+
+.item-3 {
     color: rgba(7, 2, 17, 1);
     font-size: 48px;
-    
+
 }
 
+/* এখান থেকে বক্স-3 এর কাজ করা হয়েছে */
 
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Merriweather", serif;
+}
+
+/* body {
+    background-color: #000;
+} */
+
+.banner {
+    background-image: linear-gradient(80.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1), rgba(16, 16, 16, 0) 100%), url(new-year-offer-resources/images/Vectorrr.png);
+    height: 900px;
+    width: 1120;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cover নয় */
+    background-position: center;
+    /* margin: 50px 140px 120px; */
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    font-family: "Merriweather", serif;
+    margin-top: 120px;
+
+
+}
+
+.abba {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:580px;
+    padding: 20px;
+    margin-left: 126px;
+}
+
+.title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 642px;
+    line-height: 58px;
+    font-size: 64px;
+}
+.subtitle{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 697px;
+    line-height: 30px;
+    font-size: 19px;
+    padding-right:30px ;
+}
+.year-image{
+    background-position: right;
+}
+.abba .join-btn{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.join-btn:hover {
+    background: #f4b400;
+}
