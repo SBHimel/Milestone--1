@@ -139,7 +139,7 @@ hr {
     display: flex;
     justify-content: left;
     align-items: center;
-    gap:580px;
+    gap: 580px;
     padding: 20px;
     margin-left: 126px;
 }
@@ -150,17 +150,20 @@ hr {
     line-height: 58px;
     font-size: 64px;
 }
-.subtitle{
+
+.subtitle {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 697px;
     line-height: 30px;
     font-size: 19px;
-    padding-right:30px ;
+    padding-right: 30px;
 }
-.year-image{
+
+.year-image {
     background-position: right;
 }
-.abba .join-btn{
+
+.abba .join-btn {
     display: inline-block;
     background: #fff;
     color: #000;
@@ -168,8 +171,251 @@ hr {
     font-weight: 700;
     padding: 12px 25px;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
+    transition: 2s;
 }
+
 .join-btn:hover {
     background: #f4b400;
+}
+
+/* এখান থেকে ৪র্থ বক্স এর কাজ করা হয়েছে  */
+
+.box-3 {
+    height: 482px;
+    width: 1320px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.863); */
+    background: linear-gradient(to bottom, rgba(255, 127, 127, 0.404), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.paragraph {
+    color: rgba(7, 2, 17, 1);
+    margin-top: 150px;
+    font-size: 32px;
+}
+
+.three-friend-1 {
+    color: rgba(7, 2, 17, 1);
+}
+
+.btn button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 2s;
+}
+
+.ektu {
+    font-size: 38px;
+}
+
+.btn button:hover {
+    background-color: darkred;
+}
+
+/* এখান থেকে বক্স-৫ এর কাজ করা হয়েছে  */
+
+.abba-of-5 {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 120px 140px;
+    gap: 260px;
+    margin-left: 286px;
+    font-family: "Merriweather", serif;
+}
+
+.text {
+    width: 1000px;
+    text-align: start;
+    /* margin-left: 145px;  */
+    /* margin-right: 45px;  */
+
+}
+
+h4 {
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+}
+
+p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.center-image {}
+
+.text-2 {
+
+    text-align: start;
+
+
+}
+
+h2 {
+    color: rgba(255, 0, 0, 1);
+    font-size: 48px;
+}
+
+.paragraph-2 {}
+
+.mini-image {
+    margin-top: 50px;
+}
+
+/* এখান থেকে বক্স-6 এর কাজ করা হয়েছে */
+
+.what {
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 1);
+    font-size: 24px;
+}
+
+.holidays {
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+}
+
+.holidays .nnii {
+    color: rgba(7, 2, 17, 1);
+}
+
+.choto-bap {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    background-position: center;
+    margin-left: 456px;
+    margin-bottom: 64px;
+}
+
+/* এখান থেকে বক্স-7 এর কাজ করা হয়েছে */
+
+.ima {
+    background-image: url(new-year-offer-resources/images/Rectangle\ 2.png);
+    background-position: bottom;
+    width: 1320px;
+    height: 662px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.choto-image {
+    margin-bottom: 160px;
+}
+
+/* এখান থেকে বক্স-8 এর কাজ করা হয়েছে */
+
+.best {
+    margin-bottom: 16px;
+}
+
+.our {
+    margin-bottom: 22px;
+}
+
+.abba-for-6pic {
+    margin: 120px 140px;
+}
+
+.pic-6 {
+    display: flex;
+    gap: 24px;
+    justify-content: start;
+    width: 1320px;
+    height: 940px;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.abba-for-6pic {
+    margin-left: 300px;
+}
+
+/* এখান থেকে বক্স-9 এর কাজ করা হয়েছে */
+
+.box-8 {
+    width: 1320px;
+    height: 646px;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 7px;
+    background-position: center;
+    margin-left: 300px;
+}
+
+.subscribe-box {
+    display: flex;
+    width: 300px;
+    /* চাইলে পরিবর্তন করতে পারো */
+    margin-left: 300px;
+}
+
+
+/* নিচের ডিজাইন্টা copilot use করে আর নিএ একটু modify করে*/
+
+
+.subscribe-box input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    /* বাটনের সাথে সুন্দরভাবে লাগানোর জন্য */
+    outline: none;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.subscribe-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.subscribe-box button:hover {
+    background-color: darkred;
+    /* hover effect */
+    transition: 1s;
 }
