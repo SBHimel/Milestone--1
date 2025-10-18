@@ -13,7 +13,7 @@
     text-decoration-thickness: 8px;
     text-decoration-style: dotted;
     /* আন্ডারলাইনের পুরুত্ব */
-    text-underline-offset: 12px;
+    text-underline-offset: 16px;
     /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
 }
 
@@ -260,7 +260,7 @@ h1 {
     font-size: 48px;
 }
 
-p {
+.public{
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-family: "Inter", sans-serif;
@@ -381,6 +381,7 @@ h2 {
     border-radius: 7px;
     background-position: center;
     margin-left: 300px;
+    margin-bottom: 120px;
 }
 
 .subscribe-box {
@@ -395,7 +396,7 @@ h2 {
 
 
 .subscribe-box input[type="email"] {
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
     border: 1px solid #ccc;
     border-right: none;
@@ -418,4 +419,45 @@ h2 {
     background-color: darkred;
     /* hover effect */
     transition: 1s;
+}
+
+/* লাস্ট বক্স ডিজাইন */
+
+.last-box{
+    /* width: 1600px; */
+    height: 609px;
+    background-color: rgba(7, 2, 17, 1);
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    
+}
+.identy{
+    display: flex;
+    gap: 800px;
+    padding: 120px 140px;
+    padding-left: 310px;
+}
+.number{
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: end;
+    padding-right: 150px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 98px;
+}
+
+.last-paragraph{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 880px;
+    text-decoration:underline;
+    text-decoration-color: #f4b400;
 }
