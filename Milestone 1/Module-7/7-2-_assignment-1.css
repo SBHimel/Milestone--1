@@ -356,3 +356,87 @@ span{
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
 }
+/* এখানে বক্স ৮ এর ডিজাইন করে হয়েছে */
+.box-8 {
+    width: 1280px;
+    height: 346px;
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    background-position: center;
+    margin-left: 300px;
+    margin-bottom: 120px;
+}
+
+.subscribe-box {
+    display: flex;
+    width: 300px;
+    /* চাইলে পরিবর্তন করতে পারো */
+    margin-left: -128px;
+    margin-top: -20px;
+    
+}
+
+
+/* নিচের ডিজাইন্টা copilot use করে আর নিএ একটু modify করে*/
+
+
+.subscribe-box input[type="email"] {
+    /* flex: 1; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    /* বাটনের সাথে সুন্দরভাবে লাগানোর জন্য */
+    outline: none;
+    border-radius: 15px 0px 0px 15px;
+    padding-right: 600px;
+    
+}
+
+.subscribe-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+.subscribe-box button:hover {
+    background-color: darkred;
+    /* hover effect */
+    transition: 1s;
+}
+.email-type{
+    margin-top: -80px;
+}
+.himel{
+    margin-left: -1px;
+}
+/* এখানে বক্স last এর ডিজাইন করে হয়েছে */
+
+.niche{
+    text-align: center;
+}
+.last{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .underline এ ব্যবহুত নিয়মটা chatgpt থেকে শিখেছি */
+
+.underline {
+  width: 100%; /* পুরো স্ক্রিন জুড়ে */
+  height: 2px; /* লাইনের পুরুত্ব */
+  background-color: lightgray; /* হালকা রঙ */
+  margin-top: -18px; /* টেক্সট থেকে একটু নিচে */
+  margin-bottom: 18px;
+}
