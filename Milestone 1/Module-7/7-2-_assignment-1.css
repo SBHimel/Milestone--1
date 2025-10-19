@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fira Sans", sans-serif; */
+
+* {
+    font-family: "Fira Sans", sans-serif;
+    button{
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-style: double;
+        text-decoration-color: rgba(0, 0, 0, 0.301);
+        color: white;
+    }
+    body{
+        display: contents;
+    }
+}
+
+.bangla {
+    font-size: 32px;
+    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+}
+
+.sign {
+    font-size: 18px;
+    color: rgba(0, 106, 80, 1);
+    border-color: rgba(0, 106, 80, 1);
+    width: 116px;
+    height: 52px;
+}
+
+.bangladesh {
+    /* width: 1600px;
+    height: 100px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 942px;
+}
+
+/* box-1 er design kore hoyeche */
+
+
+.box-1 {
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.content {
+    width: 622px;
+    height: 326px;
+}
+
+.halka {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-underline-offset: 5px;
+}
+
+.idea {
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+}
+
+.btn-design {}
+
+.btn {
+    background-color: rgba(0, 106, 80, 1);
+    width: 270px;
+    height: 56px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #dabbbba9;
+    cursor: pointer;
+    text-underline-offset: 7px;
+}
+
+.btn button:hover {
+    background-color: #36d35098;
+}
+
+/* বক্স-২ এর ডিজাইন */
+
+h1 {
+    font-size: 40px;
+    margin-left: 300px;
+    margin-bottom: 32px;
+    margin-top: 80px;
+}
+
+/* .content-1{
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    border: 3px solid rgba(14, 14, 14, 0.15);
+}  */
+.inno {
+    font-size: 20px;
+}
+
+.share {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+.box-2 {
+    width: 1280;
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: -10px;
+
+}
+
+.try {
+    width: 298px;
+    height: 244px;
+    border: 3px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    /* padding-right: ; */
+}
+
+/* এখানে বক্স ৩ এর ডিজাইন করে হয়েছে */
+
+.vision {
+    font-size: 40px;
+    margin-left: -4px;
+    margin-bottom: 32px;
+    margin-top: 80px;
+}
+
+.box-3 {
+    margin: 80px 300px;
+}
+
+.contaniner-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 52px;
+    width: 315px;
+    height: 240px;
+}
+
+.bap {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.extra-1 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.extra-2 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.learn {
+    width: 122px;
+    height: 41px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+
+.btn-1 {
+    background-color: rgba(84, 144, 245, 1);
+    
+}
+
+.btn-2 {
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.btn-3 {
+    background-color: rgba(255, 194, 57, 1);
+}
+
+/* এখানে বক্স ৪ এর ডিজাইন করে হয়েছে */
+
+.box-4 {
+    background-image: url(B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: ;গুগল করে বুঝেছি । */
+    background-position: 2% 15%;
+    width: 1261px;
+    height: 186px;
+    align-items: center;
+    margin: 32px 150px 80px 150px;
+    padding: 48px 24px;
+    margin-left: 300px;
+    background-color: rgba(238, 232, 232, 0.199);
+    border-radius: 17px;
+}
+
+.ektu-size {
+    margin-left: -14px;
+}
+
+/* এখানে বক্স ৫ এর ডিজাইন করে হয়েছে */
+
+.multiple-option {
+    width: 152px;
+    height: 34px;
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+
+.containerro {
+    /* padding: 5px 10px; */
+    font-size: larger;
+    font-weight: 700;
+    border-collapse: collapse;
+    border: none;
+    background-color: rgba(247, 243, 243, 0.644);
+    border-radius: 10px;
+    padding: 32px;
+    width: 1249px;
+    height: 189px;
+    margin: 24px 160px 80px 285px;
+}
+h6{
+    font-size: 18px;
+}
+.emni{
+    padding-left: 10px;
+}
+.cesta{
+    width: 1216px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 900px;
+    background-color: rgba(198, 228, 214, 1);
+}
+thead{
+    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(252, 249, 249, 0.644);
+    width: 1216px;
+}
+
+th {
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 5px 10px;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 5px 10px;
+}
+
+/* এখানে বক্স ৬ এর ডিজাইন করে হয়েছে */
+
+span{
+    visibility: hidden;
+}
+.ektu{
+    background-color: rgba(0, 106, 80, 1);
+}
+.box-6{
+    display: flex;
+    width: 1297px;
+    height: 402px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+    border-radius: 10px;
+}
+.text-content{
+    margin-top: -28px;
+}
+.background{
+    background-color: rgba(252, 249, 249, 0.644);
+}
+
+/* এখানে বক্স ৭ এর ডিজাইন করে হয়েছে */
+
+.box7{
+    display: contents;
+    /* justify-content: center; */
+    text-align: center;
+}
+.ektu-extra{
+    margin-left: -25px;
+}
+.btn-100{
+    color: black;
+}
+.kiii{
+    width: 240px;
+    height: 128px;
+    border: 2px solid rgba(0, 0, 0, 0.316);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.taka{
+    font-size: 40px;
+    font-weight: bold;
+}
+.dibba-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+.samanno{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.other{
+    margin-top: 32px;
+    margin-left: 310px;
+    margin-bottom: 32px;
+    
+    
+}
+.lollo{
+    width: 1252px;
+    height: 64px;
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+}
