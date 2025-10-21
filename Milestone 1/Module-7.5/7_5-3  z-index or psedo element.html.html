@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+        }
+        .boy{
+            z-index: 3;
+        }
+        .ring{
+            z-index: 2;
+            top: -70px;
+        }
+        .water{
+            z-index: 1;
+            top: -150px;
+        }
+
+        h3::after{
+            content: '.pdf';
+            color: red;
+            font-size: 15px;
+            background-color: yellow;
+        }
+        h3::before{
+            content: 'start';
+            color: red;
+            font-size: 10px;
+            background-color: yellow;
+        }
+        h3::first-letter{
+            color: aqua;
+        }
+        p::first-line{
+            color: blueviolet;
+        }
+        p::first-letter{
+            background-color: burlywood;
+        }
+        ::selection{
+            color:red;
+            background-color: rgb(226, 201, 168);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Z index</h3>
+    <div class="swim-container">
+        <div class="box boy"><img src="swim/boy.svg" alt=""></div>
+        <div class="box ring"><img src="swim/ring.svg" alt=""></div>
+        <div class="box water"><img src="swim/water.svg" alt=""></div>
+    </div>
+
+    <h3>Heading -1</h3>
+    <h3>Heading -1</h3>
+    <h3>Heading -1</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam incidunt veniam ex quasi quis unde necessitatibus cupiditate similique magni, enim quos itaque quod veritatis nobis accusamus doloremque perferendis commodi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam incidunt veniam ex quasi quis unde necessitatibus cupiditate similique magni, enim quos itaque quod veritatis nobis accusamus doloremque perferendis commodi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam incidunt veniam ex quasi quis unde necessitatibus cupiditate similique magni, enim quos itaque quod veritatis nobis accusamus doloremque perferendis commodi?</p>
+</body>
+</html>
