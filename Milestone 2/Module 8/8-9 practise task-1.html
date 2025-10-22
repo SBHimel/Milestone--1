@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-gap: 15px;
+            height: 98vh; /* পুরো viewport height নেয় */
+        }
+        .left, .right{
+            background-color: rgb(215, 209, 209);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            border-radius: 15px;
+            
+        }
+        .right {
+            background-color: rgb(239, 239, 205);
+         } 
+         @media screen and (max-width: 576px) {
+            .right{
+                background-color: aqua;
+                
+            }
+            .left{
+                background-color:cornflowerblue;
+                height: 30%;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+         }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>Left</h3>
+        </div>
+        <div class="right">
+            <h3>Right</h3>
+        </div>
+    </div>
+</body>
+
+</html>

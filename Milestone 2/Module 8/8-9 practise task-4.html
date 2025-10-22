@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-4</title>
+    <style>
+        button{
+            color: white;
+            background-color: rgb(48, 110, 226);
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .healthy img{
+            width: 35%;
+            height: 300px;
+        }
+        .fastfood img{
+            width: 35%;
+            height: 269px;
+        }
+    .healthy, .fastfood{
+        display: flex;
+        border: 2px solid gray;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    @media screen and (max-width:576px) {
+        .healthy, .fastfood{
+            display: flex;
+            flex-direction: column;
+        }
+        .healthy img{
+            width: 100%;
+            height: auto;
+        }
+        .fastfood img{
+            width: 100%;
+            height: auto;
+        }
+        button{
+           background-color: brown;
+           margin-left: 200px;
+           margin-bottom: 20px;
+        }
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="healthy">
+            <img src="images/healthy-lunches-GettyImages-1157610530-299978d4f2f44ba695961eee9fb97f7a.jpg" alt="">
+            <div>
+            <h2>Health is wealth</h2>
+            <p>A healthy diet starts early in life - breastfeeding fosters healthy growth, and may have longer-term
+            health benefits, like reducing the risk of becoming overweight or obese and developing noncommunicable
+            diseases later in life.
+            Feeding babies exclusively with breast milk from birth to 6 months of life is important for a healthy
+            diet. It is also important to introduce a variety of safe and nutritious complementary foods at 6 months
+            of age, while continuing to breastfeed until your child is two years old and beyond.
+            </p>
+            <button title="please read all">Read More</button>
+            </div>
+        </div>
+        <div class="fastfood">
+            <img src="images/istockphoto-1407832840-612x612.jpg" alt="">
+            <div>
+            <h2>Health is wealth</h2>
+            <p>Fast food can have negative effects on health due to being high in calories, unhealthy fats, sodium, and sugar, while being low in essential nutrients and fiber. These factors can lead to serious long-term issues like obesity, heart disease, type 2 diabetes, and hypertension, as well as immediate problems such as digestive discomfort and energy crashes. It is also linked to a higher risk of certain cancers, liver disease, and mental health issues like depression</p>
+            <button title="please read all">Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

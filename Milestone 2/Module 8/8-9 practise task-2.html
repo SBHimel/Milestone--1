@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <style>
+        .container {
+            color: white;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            /* বামে বড়, ডানে ছোট */
+            grid-template-rows: repeat(3, 1fr);
+            /* ৩টা রো */
+            height: 98vh;
+            /* পুরো viewport height নেয় */
+            grid-gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .red {
+            background-color: rgba(255, 0, 68, 0.9);
+            grid-row: span 3;
+            /* ২টা রো নেবে */
+            border-radius: 10px;
+        }
+
+        .badami {
+            background-color: rgba(210, 105, 30, 0.786);
+            border-radius: 10px;
+        }
+
+        .purple {
+            background-color: rgba(128, 0, 128, 0.807);
+            border-radius: 10px;
+        }
+
+        .gray {
+            background-color: rgb(96, 95, 95);
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                grid-template-columns: 1fr;
+                /* এক কলাম */
+            }
+
+            .red,.badami,.purple,.gray {
+                grid-column: auto;
+                grid-row: auto;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="red">
+            <h1>1</h1>
+        </div>
+        <div class="badami">
+            <h1>2</h1>
+        </div>
+        <div class="purple">
+            <h1>4</h1>
+        </div>
+        <div class="gray">
+            <h1>5</h1>
+        </div>
+    </div>
+</body>
+
+</html>
