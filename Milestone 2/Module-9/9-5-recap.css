@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Nav style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* shared style  */
+
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.288);
+
+
+
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    cursor: pointer;
+    /*  হাতের কার্সর হবে */
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+    text-decoration: underline;
+    text-decoration-color: #0000009a;
+    text-decoration-thickness: 5px;
+    /* আন্ডারলাইনের পুরুত্ব */
+    text-underline-offset: 9px;
+    /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
+
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.text-center {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* nav>ul>li এইভাবে না লেখে nav ul li{ } এইভাবেও লেখা যায় */
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* banner style  */
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+/* header */
+.header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+.site {
+    margin-right: 30px;
+
+}
+
+/* main style  */
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+    /* এটা দেওয়াতে মার্জিন উপরে ও নিচে ০ এবং ডানে,বামে অটো হয়ে যাবে অর্থাৎ এক পর্যায়ে সেন্টার এ চলে আসবে */
+
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about style */
+.about {
+    border-radius: 10px;
+    padding: 130px 135px;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item-description {
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.abba {
+    background-color: #FFFFFF;
+    border: 3px solid #000;
+    /* এখানেই কালো বর্ডার */
+}
+
+/* skills-conteiner */
+.skills-conteiner {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06)
+}
+
+/* resume section styles */
+.title {
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 113px;
+    text-decoration: underline;
+    text-decoration-color: #0000009a;
+    text-decoration-thickness: 5px;
+    /* আন্ডারলাইনের পুরুত্ব */
+    text-underline-offset: 9px;
+    /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.experience-description {
+    color: #757575;
+
+}
+
+.experience-sub-title {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.experience-title {
+    font-size: 25px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 0px;
+}
+
+.resume-column-title {
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #0000009a;
+    text-decoration-thickness: 2px;
+    /* আন্ডারলাইনের পুরুত্ব */
+    text-underline-offset: 9px;
+    /* আন্ডারলাইন টেক্সট থেকে কতটা নিচে থাকবে */
+}
+
+
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, red, yellow, green);
+}
+
+.download {
+    margin-top: 50px;
+}
+
+/* footer styles */
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 54px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer textarea {
+    height: 94px;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    padding: 35px 0px;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+/* responsive media quary */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-conteiner,
+    .resume-container,
+    footer,
+    .about-items,
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+
+    footer,
+    .about{
+        padding: 20px
+    }
+    .footer-column{
+        width: calc(100% - 20%);
+    }
+}
